@@ -8,11 +8,29 @@
 </head>
 <body>
     <div class="loginform">
-        <div class="inputgroup">
-            <input type="text" id="txtusername" required>
-            <label for="txtusername">Username</label>
+        <div class="welcome">
+        <h1>Welcome Back!</h1>
+       
+        <h6>Login to track attendance</h6>
+        <img src="images/logo.png">
 
         </div>
+       
+        <div class="inputgroup">
+            <input type="text" id="txtUsername" required>
+            <label for="txtusername" id="lblUsername">Username</label>
+        </div>
+
+        <div class="inputgroup topmarginlarge">
+            <input type="password" id="txtPassword" required>
+            <label for="txtpassword" id="lblPassword">Password</label>
+        </div>
+
+        <div class="divcallforaction topmarginlarge">
+            <button class="btnlogin inactivecolor" id="btnLogin">Login</button>
+        </div>
     </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/login.js"></script>
 </body>
 </html>
